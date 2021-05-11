@@ -1,15 +1,105 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+# Welcome
+**Elite - Responsive Portfolio Template**
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Elite Portfolio Templates - Full Customizable Templates</title>
+
+
+--------------------------------------
+
+***Thank you for your recent purchase of "Elite - Responsive Portfolio Template".***
+
+--------------------------------------
+
+
+# Overview
+
+"Elite - Responsive Portfolio Template" is a fully responsive multipurpose template with animations and a pleasing design with good performance and constant updates. This template is perfect for freelancers to show their jobs and profile to the world
+
+
+>IMPORTANT: This item is static HTML5 Template, It’s not a WordPress Theme. Images are only for demo purpose.
+--------------------------------------
+
+
+# Features
+
+- Bootstrap 
+- Modern and responsive design
+- Page Transitions Effects
+- Powerfull Portfolio with Filter
+- 4 Types Portfolio: Image, Inline, Iframe(YouTube, Vimeo) and Audio(SoundCloud)
+- Resume with Timeline
+- Skills with Percent & Dotted Bar, Circles, Knowledge
+- FontAwesome Fonts Icons
+- Google Fonts
+- Fully Working PHP Contact Form
+- Fully Support
+- Testimonials Carousel
+- Pricing Tables
+- Blog Post Page
+- Easy to Customize
+- HTML5, CSS3 & jQuery powered
+- Valid, Clean and Commented code
+- Cross browser
+- Minimal and Clean
+- CSS3 Animations
+- jQuery Validation Plugin
+- Regular Updates
+- 24/7 Support
+- Documentation included
+
+
+# Settings
+Template settings
+
+## Colors
+You can change all the colors of the template in `src/css/style.css`
+```css
+:root {
+  --crimsom : #dc143c;
+  --pink: #fe397a;
+  --light-blue: #3498DB;
+  --blue: #0099FF;
+  --turquoise: #1ABC9C;
+  --green-sea: #16A085;
+  --esmerald: #2ECC71;
+  --nephritis: #27AE60;
+  --alizarin: #E74C3C;
+  --pomegranate: #C0392B;
+  --yellow: #F1C40F;
+  --carrot: #E67E22;
+  --pumpkin: #D35400;
+  --cloud: #ECF0F1;
+  --silver: #BDC3C7;
+  --concrete: #95A5A6;
+  --asbestos: #7F8C8D;
+  /* Dark Colors */
+  --wet-asphalt: #34495E;
+  --midnight-blue: #2C3E50;
+  --dark-bg-1: #24263B;
+  --dark-bg-2: #1F2235;
+  /* Font Color */
+  --dark-font-color: #dfdfdf;
+  --light-bg-color: #F2F4F9;
+
+}
+```
+## Contact Form PHP
+To modify the form is submitted, you can use the following settings, folders `includes/form_setting.php`. In `includes/mailer.php` you can find the php code to send the emails
+```php
+	/*Form settings*/
+	$subj = "New message from your Website"; //letter subject
+	$to = 'your@gmail.com'; // Enter Your E-mail
+	$from = 'website_admin@email.com'; // Admin e-mail
+	$fromName = 'Elite Portfolio'; // Your company name
+	$charset = 'UTF-8';
+```
+## HTML Structure
+### Fonts and Styles
+
+```html
   <!-- 
         Fonts
   -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -29,15 +119,10 @@
   <link rel="stylesheet" href="./src/css/style.css">
   <!-- Styles -->
 
-</head>
+```
 
-<body>
-  <div id="pre-loading">
-    <div class="lds-ripple">
-      <div></div>
-      <div></div>
-    </div>
-  </div>
+### Navbar
+```html
   <!-- Header -->
   <header class="header cover">
     <div class="container-fluid">
@@ -90,7 +175,9 @@
     </div>
   </header>
   <!-- Header End -->
-
+```
+### Hero
+```html
   <!-- Hero -->
   <section class="hero section container-fluid no-gutters" style="scroll-behavior: smooth;">
     <div class="row">
@@ -116,20 +203,12 @@
         </div>
       </div>
     </div>
-    <div class="mouse_scroll">
-
-      <div class="mouse">
-        <div class="wheel"></div>
-      </div>
-      <div>
-        <span class="m_scroll_arrows unu"></span>
-        <span class="m_scroll_arrows doi"></span>
-        <span class="m_scroll_arrows trei"></span>
-      </div>
-    </div>
   </section>
   <!-- Hero -->
+```
 
+### Services
+```html
   <!-- Services -->
   <section class="services section" id="services" style="scroll-behavior: smooth;">
     <div class="container">
@@ -241,7 +320,11 @@
     </div>
   </section>
   <!-- Services -->
+```
 
+### About Me
+
+```html
   <!-- About me -->
   <section class="about-me section" id="about-me" style="scroll-behavior: smooth;">
     <div class="container">
@@ -302,6 +385,10 @@
     </div>
   </section>
   <!-- About me -->
+```
+
+### Skills
+```html
   <!-- Skills -->
   <section class="skills section" id="skills" style="scroll-behavior: smooth;">
     <div class="container">
@@ -355,6 +442,9 @@
       </div>
   </section>
   <!-- skills -->
+```
+### Portfolio
+```html
   <!-- portfolio -->
   <section class="portfolio section" id="portfolio" style="scroll-behavior: smooth;">
     <div class="container">
@@ -573,8 +663,12 @@
     </div>
   </section>
   <!-- portfolio -->
+  ```
 
-  <!-- Pricing -->
+### Pricing
+```html
+
+ <!-- Pricing -->
   <section class="pricing section" id="pricing" style="scroll-behavior: smooth;">
     <div class="container">
       <div class="row">
@@ -649,6 +743,10 @@
     </div>
   </section>
   <!-- Pricing -->
+```
+
+### Projects Counter
+```html
   <!-- Projects Counter -->
   <section class="project-counter mb-5 pt-5 pb-5" id="project-counter" style="scroll-behavior: smooth;">
     <div class="container">
@@ -710,7 +808,10 @@
     </div>
   </section>
   <!-- Projects Counter -->
+```
 
+### Testimonials
+```html
   <!-- Testimonials -->
   <section class="testimonial" id="testimonial" style="scroll-behavior: smooth;">
     <div class="container">
@@ -839,6 +940,11 @@
     </div>
   </section>
   <!-- Testimonials -->
+
+```
+
+### Clients
+```html
   <!-- Clients -->
   <section class="clients" id='clients' style="scroll-behavior: smooth;">
     <div class="container-fluid">
@@ -882,6 +988,9 @@
     </div>
   </section>
   <!-- Clients -->
+```
+### Blog
+```html
   <!-- Blog Posts -->
   <section class="blog-posts" id='blog-post' style="scroll-behavior: smooth;">
     <div class="container">
@@ -938,6 +1047,10 @@
     </div>
   </section>
   <!-- Blog Posts -->
+```
+
+### Contact 
+```html
   <!-- Contact Form -->
   <section class="section" id="contact" style="scroll-behavior: smooth;">
     <div class="container">
@@ -964,29 +1077,29 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <div class="address">
+          <div class="address" >
             <a href="#">
-              <i class="fas fa-map-marker-alt"></i>
-              <span>Locate us</span>
-              <p>27203 Hollow Road, North </p>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Locate us</span>
+            <p>27203 Hollow Road, North </p>
+            </a>
+            </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="phone" >
+            <a href="#">
+            <i class="fas fa-phone"></i>
+            <span>Call me</span>
+            <p>910-569-5701</p>
             </a>
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="phone">
+          <div class="email" >
             <a href="#">
-              <i class="fas fa-phone"></i>
-              <span>Call me</span>
-              <p>910-569-5701</p>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="email">
-            <a href="#">
-              <i class="fas fa-at"></i>
-              <span>Email</span>
-              <p>jhon@doe.com</p>
+            <i class="fas fa-at"></i>
+            <span>Email</span>
+            <p>jhon@doe.com</p>
             </a>
           </div>
         </div>
@@ -1046,7 +1159,9 @@
     </div>
   </section>
   <!-- Contact Form -->
-
+```
+### Footer
+```html
   <section class="section footer" id="footer" style="scroll-behavior: smooth;">
     <div class="container">
       <div class="row">
@@ -1056,20 +1171,47 @@
       </div>
     </div>
   </section>
-  <!-- Scripts -->
-  <script src="./src/js/jquery-3.6.0.min.js"></script>
-  <script>
-    $(window).on('load', function () {
-      $('#pre-loading').hide();
-    });
-  </script>
-  <script src="./src/js/bootstrap.min.js"></script>
-  <script src="./src/js/jquery.validate.min.js"></script>
-  <script src="./src/js/isotope.js"></script>
-  <script src="./src/js/owl.carousel.min.js"></script>
-  <script src="./src/js/index.js"></script>
-  <!-- Scripts -->
 
-</body>
+```
 
-</html>
+# Credits
+--------------------------------------
+
+
+## **Icons used:**
+
+- FontAwesome 5 - https://fontawesome.com/
+
+
+--------------------------------------
+
+
+## **Free Google Fonts used**
+
+- Google Fonts, Poppins
+
+
+--------------------------------------
+
+
+## **Source & Credits**
+
+- Bootstrap Framework - https://getbootstrap.com/
+- FontAwesome - https://fontawesome.com/
+- Animate.css - https://daneden.github.io/animate.css/
+- jQuery - https://jquery.com/
+- Isotope - https://isotope.metafizzy.co/
+- jQuery Validation Plugin - http://jqueryvalidation.org/
+- Owl Carousel 2 - https://owlcarousel2.github.io/OwlCarousel2/
+
+--------------------------------------
+
+
+## **Photos Credits**
+
+- Freepik - https://www.freepik.com/
+- Pixabay - https://pixabay.com/
+
+# Creator Profile & Contact
+- **ThemeForest: https://themeforest.net/user/darguello**
+- **Email: denilsonn1998@gmail.com**
