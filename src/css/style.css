@@ -171,7 +171,6 @@ html {
   content: "";
   padding: 20px 80px;
   display: block;
-  height: 80vh;
   background: var(--dark-bg-1);
   background-size: cover;
   background-position: bottom;
@@ -227,13 +226,39 @@ html {
   width: 250px;
 }
 
-.btn-jobs {
-  display: block;
+.btn {
+  border-radius: 100px;
+  padding: 5px 10px;
+  border: 1px solid var(--crimsom);
+  color: var(--dark-font-color);
+  text-align: center;
+  margin-right:auto;
+  margin-top: 10px; 
+}
+.btn-get-started{
   font-size: 20px;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 100px;
+  padding: 5px;
   width: 200px;
-  border: 2px solid var(--carrot);
+  background-color: var(--crimsom);
+  color: var(--dark-font-color);
+  text-align: center;
+  margin-right: 5px;
+  margin-top: 10px;
+
+}
+.btn-get-started:hover{
+  background: var(--crimsom);
+  color: white;
+  opacity: .8;
+
+}
+.btn-jobs {
+  font-size: 20px;
+  border-radius: 100px;
+  padding: 5px;
+  width: 200px;
+  border: 1px solid var(--crimsom);
   color: var(--dark-font-color);
   text-align: center;
   margin-right:auto;
@@ -242,7 +267,6 @@ html {
 
 .btn-jobs:hover {
   background: var(--crimsom);
-  border: 2px solid var(--crimsom);
   color: white;
 }
 
@@ -1209,6 +1233,7 @@ html {
   width: 200px;
   background-color: var(--carrot);
   color: var(--dark-font-color);
+  border:0px solid #fff;
   text-align: center;
   margin-left: auto;
   border-radius: 10px;
