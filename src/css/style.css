@@ -156,7 +156,7 @@ html {
   z-index: 1000;
   width: 100%;
   left: 0px;
-  padding: 30px 10% !important;
+  padding: 10px 9.4% !important;
   background-color: var(--dark-bg-2);
 }
 
@@ -537,6 +537,9 @@ html {
 }
 
 @media (max-width: 991px) {
+  .header__logo-text {
+    font-size: 22px;
+  }
   .hero__right {
     display: none;
   }
@@ -791,18 +794,19 @@ html {
 
 .portfolio__filter .list-inline .list-inline-item:hover {
   color: var(--dark-font-color);
-  border-bottom: 2px solid var(--carrot);
+  border-bottom: 1px solid var(--pumpkin);
   cursor: pointer;
 
 }
 
 .list-inline-item-selected {
-  border: 2px solid var(--pumpkin);
+  border: 1px solid var(--pumpkin);
   border-radius: 20px;
+  background-color: var(--dark-bg-2);
 }
 
 .list-inline-item-selected:hover {
-  border: 2px solid var(--pumpkin);
+  border: 1px solid var(--pumpkin);
   border-radius: 20px;
 }
 
