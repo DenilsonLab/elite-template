@@ -19,8 +19,8 @@
   /* Dark Colors */
   --wet-asphalt: #34495E;
   --midnight-blue: #2C3E50;
-  --dark-bg-1: #24263B;
-  --dark-bg-2: #1F2235;
+  --dark-bg-1: #07152e;
+  --dark-bg-2: #000c24;
   /* Font Color */
   --dark-font-color: #dfdfdf;
   --light-bg-color: #F2F4F9;
@@ -135,7 +135,7 @@ html {
   display: block;
   width: 0;
   height: 2px;
-  background: var(--midnight-blue);
+  background: var(--carrot);
 
   transition: width .2s;
 }
@@ -1273,4 +1273,33 @@ html {
   text-align: center;
   letter-spacing: .5px;
 
+}
+
+/* ERROR 404 page */
+
+.error-404{
+  height: 90vh;
+}
+.error-404__title{
+  letter-spacing: 2px;
+  line-height: 100px;
+  color: var(--midnight-blue);
+  font-weight: 800;
+  font-size: 10rem;
+}
+.error-404__title span {
+  color: var(--carrot);
+  font-weight: 800;
+  font-size: 3rem;
+}
+.btn-error-404{
+  padding: 10px 20px;
+  font-size: 18px;
+  background: var(--crimsom);
+  transition: all .6s;
+  border: 0px solid;
+}
+.btn-error-404:hover{
+  color:var(--dark-font-color);
+  background: var(--pomegranate);
 }

@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿$(window).ready(function () {
   $(".skill-per").each(function () {
     var $this = $(this);
     var per = $this.attr("per");
@@ -85,7 +85,17 @@
       "<i class='fa fa-caret-right'></i>"
     ],
     dots: true,
-    margin: 20
+    margin: 20,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        nav: false
+      },
+      991: {
+        nav: true
+      },
+
+    }
   });
 
   $(".client-list").owlCarousel({
@@ -94,56 +104,56 @@
     dots: false,
     loop: true,
     margin: 20,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:3,
-            nav:false,
-            dots: true,
-            center:true
-        },
-        600:{
-            items:3,
-            nav:false,
-            dots: true,
-            center:true
-        },
-        1000:{
-            items:3,
-            loop:true,
-            dots: true,
-            center:true
-        }
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 3,
+        nav: false,
+        dots: true,
+        center: true
+      },
+      600: {
+        items: 3,
+        nav: false,
+        dots: true,
+        center: true
+      },
+      1000: {
+        items: 3,
+        loop: true,
+        dots: true,
+        center: true
+      }
     }
   });
 
   $(".blog-posts-list").owlCarousel({
-    center:true,
+    center: true,
     stagePadding: 0,
     items: 3,
     dots: true,
     loop: true,
-    margin: 10,    
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:false,
-            dots: true,
-            center:true
-        },
-        600:{
-            items:1,
-            nav:false,
-            dots: true,
-            center:true
-        },
-        1000:{
-            items:3,
-            loop:true,
-            dots: true,
-            center:true
-        }
+    margin: 10,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: false,
+        dots: true,
+        center: true
+      },
+      600: {
+        items: 1,
+        nav: false,
+        dots: true,
+        center: true
+      },
+      1000: {
+        items: 3,
+        loop: true,
+        dots: true,
+        center: true
+      }
     }
   });
 
