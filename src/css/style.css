@@ -685,6 +685,46 @@ html {
 
   box-shadow: 3px 3px 15px 0px var(--midnight-blue);
 }
+.card-author{
+  display: flex;
+  background: var(--dark-bg-1);
+  border-radius: 10px;
+
+}
+.card-author img{
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  
+}
+
+.card-author .card-author-info{
+  padding: 5px;
+  
+}
+.card-author .card-author-info p{
+  margin:0px;
+  font-size: .9rem;
+}
+.card-author .card-author-info .author-name{
+  font-weight: 600p;
+  
+}
+.card-horizontal{
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.card-horizontal .card-head {
+  flex: 50%;
+}
+.card-horizontal .card-body{
+  flex: 50%;
+}
+
+.card-horizontal .card-body .card-stats{
+  
+}
 
 .about-me {
   margin-top: 80px;
@@ -1110,9 +1150,8 @@ html {
   text-align: left;
   color: var(--dark-font-color);
   padding-left: 0px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
-  text-indent: 5px;
 }
 
 .post__categorie {
@@ -1303,3 +1342,13 @@ html {
   color:var(--dark-font-color);
   background: var(--pomegranate);
 }
+
+/* Blog Posts */
+.breadcrumb-section{
+  margin-top: 30px;
+}
+ .breadcrumb{
+  background: var(--dark-bg-1);
+}
+
+/*  */
