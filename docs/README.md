@@ -25,7 +25,6 @@
 - Modern and responsive design
 - Page Transitions Effects
 - Powerfull Portfolio with Filter
-- 4 Types Portfolio: Image, Inline, Iframe(YouTube, Vimeo) and Audio(SoundCloud)
 - Resume with Timeline
 - Skills with Percent & Dotted Bar, Circles, Knowledge
 - FontAwesome Fonts Icons

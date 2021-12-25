@@ -1,0 +1,63 @@
+<strong>"Elite - Responsive Portfolio Template" is a fully responsive multipurpose template with animations and a pleasing design with good performance and constant updates. This template is perfect for freelancers to show their jobs and profile to the world
+</strong>
+
+<h2>Features</h2>
+<ul>
+<li> Contact Form </li>
+<li> Bootstrap 4 +</li>
+<li> Modern and responsive design</li>
+<li> Page Transitions Effects</li>
+<li> Powerfull Portfolio with Filter</li>
+<li> Resume with Timeline</li>
+<li> Skills with Percent & Dotted Bar, Circles, Knowledge</li>
+<li> FontAwesome Fonts Icons</li>
+<li> Google Fonts</li>
+<li> Fully Working PHP Contact Form</li>
+<li> Fully Support</li>
+<li> Testimonials Carousel</li>
+<li> Pricing Tables</li>
+<li> Blog Post Page</li>
+<li> Easy to Customize</li>
+<li> HTML5, CSS3 & jQuery powered</li>
+<li> Valid, Clean and Commented code</li>
+<li> Cross browser</li>
+<li> Minimal and Clean</li>
+<li> CSS3 Animations</li>
+<li> jQuery Validation Plugin</li>
+<li> Regular Updates</li>
+<li> 24/7 Support</li>
+<li> Documentation included</li>
+</ul>
+<em>>IMPORTANT: This item is static HTML5 Template, It’s not a WordPress Theme. Images are only for demo purpose.</em>
+
+<h3>Icons used</h3>
+<ul>
+<li>FontAwesome 5 - https://fontawesome.com/</li>
+</ul>
+<h3>Google Fonts</h3>
+<ul>
+<li>Google Fonts, Poppins</li>
+</ul>
+<h3>
+Source & Credits
+</h3>
+<ul>
+<li> Bootstrap Framework - https://getbootstrap.com/</li>
+<li> FontAwesome - https://fontawesome.com/</li>
+<li> Animate.css - https://daneden.github.io/animate.css/</li>
+<li> jQuery - https://jquery.com/</li>
+<li> Isotope - https://isotope.metafizzy.co/</li>
+<li> jQuery Validation Plugin - http://jqueryvalidation.org/</li>
+<li> Owl Carousel 2 - https://owlcarousel2.github.io/OwlCarousel2/</li>
+</ul>
+<h3>Photos Credits</h3>
+<ul>
+<li> Freepik - https://www.freepik.com/</li>
+<li> Pixabay - https://pixabay.com/</li>
+</ul>
+<h3>Creator Profile & Contact</h3>
+<ul>
+<li><strong>ThemeForest: https://themeforest.net/user/darguello</strong></li>
+<li><strong>Personal Email: denilsonn1998@gmail.com</strong></li>
+</ul>
+Note: More Update Coming Soon.
