@@ -92,6 +92,7 @@ To modify the form is submitted, you can use the following settings, folders `in
 	$fromName = 'Elite Portfolio'; // Your company name
 	$charset = 'UTF-8';
 ```
+
 ## HTML Structure
 ### Fonts and Styles
 

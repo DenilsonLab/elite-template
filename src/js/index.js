@@ -1,4 +1,4 @@
-﻿$(window).ready(function () {
+﻿$(window).on('load', function () {
   $(".skill-per").each(function () {
     var $this = $(this);
     var per = $this.attr("per");
@@ -21,7 +21,7 @@
 
 
   // Portfolio filters
-  $('.filters ul li').click(function () {
+  $('.filters ul li').on('click', function () {
     $('.filters ul li').removeClass('list-inline-item-selected');
     $(this).addClass('list-inline-item-selected');
     var data = $(this).attr('data-filter');
@@ -62,7 +62,7 @@
   });
 
 
-  $(window).scroll(function () {
+  $(window).on('scroll', function () {
     if ($(this).scrollTop() > 5) {
       $(".navbar").addClass("fixed-me");
       $(".navbar").addClass("animate__animated animate__fadeInDown ");
@@ -158,39 +158,58 @@
   });
 
   // Contact Form
+  //Json validator
+    function isJson(item) {
+      item = typeof item !== "string"
+          ? JSON.stringify(item)
+          : item;
 
+      try {
+          item = JSON.parse(item);
+      } catch (e) {
+          return false;
+      }
+
+      if (typeof item === "object" && item !== null) {
+          return true;
+      }
+
+      return false;
+  }
   $(function () {
     function after_form_submitted(data) {
-      console.log(data);
-      if (data.result == 'success') {
-        $('form#contact_form').hide();
-        $('#success_message').show();
-        $('#error_message').hide();
-      } else {
-        $('#error_message').append('<ul></ul>');
-
-        jQuery.each(data.errors, function (key, val) {
-          $('#error_message ul').append('<li>' + key + ':' + val + '</li>');
-        });
-        $('#success_message').hide();
-        $('#error_message').show();
-
-        //reverse the response on the button
-        $('button[type="button"]', $form).each(function () {
-          $btn = $(this);
-          label = $btn.prop('orig_label');
-          if (label) {
-            $btn.prop('type', 'submit');
-            $btn.text(label);
-            $btn.prop('orig_label', '');
-          }
-        });
-
-      } //else
+      if(isJson(data)){
+        if (data.status == 'success') {
+          $('#success_message').show();
+          $('#error_message').hide();
+        } else {
+          $('#error_message').append('Please complete all the fields correctly.');
+          $('#error_message').append('<ul></ul>');
+  
+          jQuery.each(data.messages, function (key, val) {
+            $('#error_message ul').append('<li>' + val + '</li>');
+          });
+          $('#success_message').hide();
+          $('#error_message').show();
+  
+  
+        }
+      }
+      //reverse the response on the button
+       $('button[type="button"]', $form).each(function () {
+        $btn = $(this);
+        label = $btn.prop('orig_label');
+        if (label) {
+          $btn.prop('type', 'submit');
+          $btn.text(label);
+          $btn.prop('orig_label', '');
+        }
+      });
     }
 
     $('#contact_form').validate({
       rules: {
+
         name: {
           required: true,
         },
@@ -224,6 +243,24 @@
           type: "POST",
           url: 'includes/mailer.php',
           data: $form.serialize(),
+          beforeSend: function(){
+            $('#error_message').empty();
+            $('#error_message').hide();
+            $('#success_message').hide();
+            
+          },
+          error: function(r){
+
+            $('button[type="button"]', $form).each(function () {
+              $btn = $(this);
+              label = $btn.prop('orig_label');
+              if (label) {
+                $btn.prop('type', 'submit');
+                $btn.text(label);
+                $btn.prop('orig_label', '');
+              }
+            });
+          },
           success: after_form_submitted,
           dataType: 'json'
         });
