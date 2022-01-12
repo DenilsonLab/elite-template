@@ -62,4 +62,4 @@ ___
 
 # Creator Profile & Contact
 - **ThemeForest: https://themeforest.net/user/darguello**
-- **Email: denilsonn1998@gmail.com**
+- **Discord: RewriteRule**
