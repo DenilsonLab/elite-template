@@ -1,96 +1,62 @@
-/**
+
+EN * This theme is for free non-commercial use, if you want to collaborate with the project just make a Pull Request to the repository *
+
+ES * Este tema es para uso gratuito no comercial, si quieres colaborar con el proyecto solo haz un Pull Request al repositorio *
+
+___
 *	Elite - Responsive Portfolio Template
 *	Version:1.0
 *	Author: Denilson Arguello
-*	Author URL: https://themeforest.net/user/darguello
+*	Author URL: None currently
 *	Copyright © Elite by Denilson Arguello. All Rights Reserved.
-**/
+
+# Overview:
+
+- "Elite - Responsive Portfolio Template" is a fully responsive multipurpose template with animations and a pleasing design with good performance and constant updates. This template is perfect for freelancers to show their jobs and profile to the 
 
 
---------------------------------------
 
-Thank you for your recent purchase of "Elite - Responsive Portfolio Template".
-
---------------------------------------
+>OBS:Originally this template was created for sale on themeforest but received a "hard reject" so I released it to the public
 
 
-Overview:
 
-"Elite - Responsive Portfolio Template" is a fully responsive multipurpose template with animations and a pleasing design with good performance and constant updates. This template is perfect for freelancers to show their jobs and profile to the world
-
-
---------------------------------------
+# Credits
+___
 
 
-Features:
-
-- Bootstrap 
-- Modern and responsive design
-- Page Transitions Effects
-- Powerfull Portfolio with Filter
-- 4 Types Portfolio: Image, Inline, Iframe(YouTube, Vimeo) and Audio(SoundCloud)
-- Resume with Timeline
-- Skills with Percent & Dotted Bar, Circles, Knowledge
-- FontAwesome Fonts Icons
-- Google Fonts
-- Fully Working PHP Contact Form
-- Fully Support
-- Testimonials Carousel
-- Pricing Tables
-- Blog Post Page
-- Easy to Customize
-- HTML5, CSS3 & jQuery powered
-- Valid, Clean and Commented code
-- Cross browser
-- Minimal and Clean
-- CSS3 Animations
-- jQuery Validation Plugin
-- Regular Updates
-- 24/7 Support
-- Documentation included
-
-
---------------------------------------
-
-
-Icons used:
+## **Icons used:**
 
 - FontAwesome 5 - https://fontawesome.com/
 
+___
 
---------------------------------------
 
-
-Free Google Fonts used:
+## **Free Google Fonts used**
 
 - Google Fonts, Poppins
 
 
---------------------------------------
+___
 
 
-Sourse & Credits:
+## **Source & Credits**
 
-Bootstrap Framework - https://getbootstrap.com/
-FontAwesome - https://fontawesome.com/
-Animate.css - https://daneden.github.io/animate.css/
-jQuery - https://jquery.com/
-Isotope - https://isotope.metafizzy.co/
-jQuery Validation Plugin - http://jqueryvalidation.org/
-Owl Carousel 2 - https://owlcarousel2.github.io/OwlCarousel2/
+- Bootstrap Framework - https://getbootstrap.com/
+- FontAwesome - https://fontawesome.com/
+- Animate.css - https://daneden.github.io/animate.css/
+- jQuery - https://jquery.com/
+- Isotope - https://isotope.metafizzy.co/
+- jQuery Validation Plugin - http://jqueryvalidation.org/
+- Owl Carousel 2 - https://owlcarousel2.github.io/OwlCarousel2/
 
---------------------------------------
+___
 
 
-Photos Credits:
+## **Photos Credits**
 
 - Freepik - https://www.freepik.com/
 - Pixabay - https://pixabay.com/
 
-
-IMPORTANT: This item is static HTML5 Template, It’s not a WordPress Theme. Images are only for demo purpose.
-
-
-ThemeForest: https://themeforest.net/user/darguello
-Email: denilsonn1998@gmail.com
-
+# Creator Profile & Contact
+- **ThemeForest: https://themeforest.net/user/darguello**
+- **Email: denilsonn1998@gmail.com**
