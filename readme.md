@@ -5,7 +5,7 @@
 
 ___
 # Demo site
-(https://elite-template-full.netlify.app/)
+https://elite-template-full.netlify.app/
 ___
 *	Elite - Responsive Portfolio Template
 *	Version:1.0
@@ -61,5 +61,4 @@ ___
 - Pixabay - https://pixabay.com/
 
 # Creator Profile & Contact
-- **ThemeForest: https://themeforest.net/user/darguello**
-- **Discord: RewriteRule**
+- **Discord: RewriteRule#5569**

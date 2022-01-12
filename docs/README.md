@@ -1168,5 +1168,5 @@ To modify the form is submitted, you can use the following settings, folders `in
 - Pixabay - https://pixabay.com/
 
 # Creator Profile & Contact
-- **ThemeForest: https://themeforest.net/user/darguello**
-- **Email: denilsonn1998@gmail.com**
+
+- **Discord: RewriteRule#5569**
