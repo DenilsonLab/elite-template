@@ -1,7 +1,7 @@
 
-EN * This theme is for free non-commercial use, if you want to collaborate with the project just make a Pull Request to the repository *
+## EN **This theme is for free non-commercial use, if you want to collaborate with the project just make a Pull Request to the repository**
 
-ES * Este tema es para uso gratuito no comercial, si quieres colaborar con el proyecto solo haz un Pull Request al repositorio *
+## ES **Este tema es para uso gratuito no comercial, si quieres colaborar con el proyecto solo haz un Pull Request al repositorio**
 
 ___
 # Demo site
