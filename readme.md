@@ -4,6 +4,9 @@ EN * This theme is for free non-commercial use, if you want to collaborate with 
 ES * Este tema es para uso gratuito no comercial, si quieres colaborar con el proyecto solo haz un Pull Request al repositorio *
 
 ___
+# Demo site
+(https://elite-template-full.netlify.app/)
+___
 *	Elite - Responsive Portfolio Template
 *	Version:1.0
 *	Author: Denilson Arguello
